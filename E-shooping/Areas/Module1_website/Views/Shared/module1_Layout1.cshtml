@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <link rel="icon" href="~/Content/images/fevicon.png" type="image/gif" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Minics</title>
+
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet"> <!-- range slider -->
+    <!-- font awesome style -->
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/Content/css/responsive.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- header section strats -->
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="header_bottom">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg custom_nav-container ">
+                        <a class="navbar-brand" href="index.html">
+                            <span>
+                               E-shopping
+                            </span>
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=""> </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin_login.html"> Admin Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header_top">
+                <div class="container-fluid">
+                    <div class="top_nav_container">
+                        <from class="search_form">
+                            <!-- <input type="text" class="form-control" placeholder="Search here...">
+                            <button class="" type="submit">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                            </button> -->
+                            <select>
+                                <option>Select Category</option>
+                                <option>Clothes</option>
+                                <option>Foot wear</option>
+                                <option>Sunglass</option>
+                            </select>
+                        </from>
+                        <div class="user_option_box">
+                            <a href="customer_signIn.html" class="account-link">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>
+                                    Sign In
+                                </span>
+                            </a>
+                            <a href="customer_signup.html" class="account-link">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>
+                                    Sign Up
+                                </span>
+                            </a>
+                            <a href="" class="cart-link">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <span>
+                                    Cart
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+    <!-- end header section -->
+    @RenderBody()
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By Naman
+            </p>
+        </div>
+    </footer>
+    <!-- footer section -->
+</body>
+</html>
